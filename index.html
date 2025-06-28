@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tunnel de Conversion Avancé avec Three.js</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <canvas id="bg-canvas"></canvas>
+
+    <div class="funnel-container">
+
+        <div class="progress-container">
+            <div class="progress-bar" id="progressBar"></div>
+        </div>
+        
+        <form id="multiStepForm">
+            <div class="form-step active" data-step="1">
+                <h1 class="step-title">Lancez votre transformation</h1>
+                <p class="step-description">Bienvenue dans une expérience conçue pour vous. Prêt(e) à commencer ?</p>
+            </div>
+
+            <div class="form-step" data-step="2">
+                <h1 class="step-title">Définissons vos ambitions</h1>
+                <p class="step-description">Chaque grand voyage commence par une vision claire. Laquelle est la vôtre ?</p>
+            </div>
+
+            <div class="form-step" data-step="3">
+                <h1 class="step-title">L'étape finale est proche</h1>
+                <p class="step-description">Vous avez presque terminé. Cliquez ci-dessous pour finaliser votre inscription via notre formulaire sécurisé.</p>
+            </div>
+
+            <div class="button-container">
+                <button type="button" class="btn btn-secondary" id="prevBtn">Précédent</button>
+                <button type="button" class="btn btn-primary" id="nextBtn">Continuer</button>
+                <a href="https://forms.gle/YNSLrm1thKmAssuR6" target="_blank" class="btn btn-cta" id="submitBtn">Ouvrir le formulaire final</a>
+            </div>
+        </form>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="script.js"></script>
+
+</body>
+</html>
