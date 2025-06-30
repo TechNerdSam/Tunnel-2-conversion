@@ -1,18 +1,4 @@
-.btn-cta {
-    /* Dégradé vibrant et moderne */
-    background: linear-gradient(45deg, #F92B73, #A541FF);
-    color: var(--primary-color);
-    width: 100%;
-    max-width: 400px;
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
-}
 
-.btn-cta:hover {
-    background: linear-gradient(45deg, #F92B73, #A541FF);
-    /* Animation plus marquée au survol */
-    transform: translateY(-5px) scale(1.03);
-    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.4);
-}
 :root {
     --primary-color: #ffffff;
     --text-color: #e0e0e0;
